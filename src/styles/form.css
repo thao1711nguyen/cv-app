@@ -1,0 +1,17 @@
+form {
+    flex-direction: column;
+}
+form > section {
+    display: flex;
+    flex-direction: column;
+}
+form > section:nth-child(3) > div {
+    display: flex;
+    gap: 10%;
+}
+form > button {
+    align-self: center;
+    margin-top: 10px;
+    padding: 2px;
+    width: 100px;
+}
